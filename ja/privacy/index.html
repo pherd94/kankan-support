@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KanKan プライバシーポリシー</title>
+<link rel="alternate" hreflang="ko" href="https://pherd94.github.io/kankan-support/privacy/">
+<link rel="alternate" hreflang="en" href="https://pherd94.github.io/kankan-support/en/privacy/">
+<link rel="alternate" hreflang="ja" href="https://pherd94.github.io/kankan-support/ja/privacy/">
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Apple SD Gothic Neo", "Helvetica Neue", sans-serif;
+    max-width: 42rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem;
+    line-height: 1.7; color: #1c1f26; background: #f5f7fc;
+  }
+  h1 { font-size: 1.6rem; border-bottom: 3px solid #2e5ceb; padding-bottom: .6rem; }
+  h2 { font-size: 1.15rem; margin-top: 2.2rem; }
+  h3 { font-size: 1rem; margin-top: 1.6rem; margin-bottom: .4rem; }
+  table { border-collapse: collapse; width: 100%; font-size: .95rem; }
+  th, td { border: 1px solid #d7dce8; padding: .5rem .6rem; text-align: left; vertical-align: top; }
+  th { background: #e8edfb; }
+  a { color: #2e5ceb; overflow-wrap: anywhere; }
+  code { background: #e8edfb; padding: .1rem .35rem; border-radius: 4px; font-size: .9em; }
+  .lead, .effective, .lang { color: #5b6472; }
+  .effective, .lang { font-size: .9rem; }
+  .footnote { margin-top: 2.5rem; color: #6b7280; font-size: .9rem; border-top: 1px solid #d7dce8; padding-top: 1rem; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f4f8; background: #0e1118; }
+    th, td { border-color: #2a3140; }
+    th { background: #182034; }
+    code { background: #182034; }
+    a { color: #7f9bff; }
+    .lead, .effective, .lang, .footnote { color: #9aa3b2; }
+    .footnote { border-color: #2a3140; }
+    h1 { border-color: #7f9bff; }
+  }
+</style>
+</head>
+<body>
+<p class="lang"><a href="../../privacy/" hreflang="ko">한국어</a> · <a href="../../en/privacy/" hreflang="en">English</a> · 日本語</p>
+<h1>KanKan プライバシーポリシー</h1>
+<p class="effective">施行日：2.0.2 リリース日</p>
+
+<h2>概要</h2>
+<p>KanKanは、<strong>書いた内容や、予定・ToDo・付箋を開発者に送らず、広告SDKにも渡しません。</strong>
+アカウント、ログイン、サブスクリプション、App内課金、分析ツールはなく、開発者が運営するサーバーもありません。
+iPhoneとiPadでは画面の下にGoogle AdMobのバナー広告が表示され、広告を表示するために、下の「広告」に書いた情報をGoogleが取り扱います。Macには広告はありません。</p>
+
+<h2>書いた内容はどこへ行くのか</h2>
+<p>入力した予定の文章は、Apple Intelligenceの<strong>オンデバイスモデル</strong>によってデバイス上で処理します。
+文章がデバイスの外に出ることはなく、開発者を含めて誰も見ることはできません。
+整理した結果は、次の表のとおりに保存されます。</p>
+
+<h2>保存されるデータ</h2>
+<table>
+  <tr><th>データ</th><th>用途</th><th>保存場所</th></tr>
+  <tr><td>予定（タイトル、日付、時刻）</td><td>カレンダーへの登録</td><td>お使いのAppleの「カレンダー」</td></tr>
+  <tr><td>ToDo（タイトル、日付、完了したかどうか）</td><td>その日のマスの下に表示</td><td>デバイス内とお使いのiCloud</td></tr>
+  <tr><td>付箋（内容、色）</td><td>付箋ボードに表示</td><td>デバイス内とお使いのiCloud</td></tr>
+  <tr><td>設定（表示するカレンダー、登録先のカレンダー）</td><td>アプリの動作</td><td>デバイス内</td></tr>
+</table>
+
+<h2>カレンダーへのアクセス</h2>
+<p>KanKanは、予定を登録したり読み取ったりするために、カレンダーへのフルアクセスを求めます。
+読み取った予定は、アプリの中で週・月の表示に使うだけで、デバイスの外には出ません。
+アクセスは「設定」（Macは「システム設定」）＞「プライバシーとセキュリティ」＞「カレンダー」でいつでもオフにできます。</p>
+
+<h2>iCloud同期</h2>
+<p>ToDoと付箋は<strong>ご本人のiCloudのプライベートデータベース</strong>に保存され、同じAppleアカウントのデバイス同士で同期されます。
+このデータはAppleが提供するCloudKitのプライベート領域にあり、開発者が中身を見ることはできません。
+iCloudをオフにすると、デバイス内だけに保存されます。</p>
+
+<h2>ウィジェット</h2>
+<p>ウィジェットは、アプリがデバイス内の共有フォルダに書いた要約ファイルだけを読みます。このファイルもデバイスの外には出ません。</p>
+
+<h2>新しいバージョンの確認</h2>
+<p>新しいバージョンが出たことをお知らせするため、アプリは1日に1回まで、App Storeの公開照会サービス（itunes.apple.com/lookup）にKanKanの最新バージョン番号だけを問い合わせます。
+送るのはKanKanのアプリ識別子と国コードだけで、利用者の情報や書いた内容は送りません。
+受け取ったバージョン番号はデバイス内にだけ保存します。</p>
+
+<h2>広告（iPhone・iPad）</h2>
+<p>KanKanは、iPhoneとiPadの画面の下の1行に、Google AdMobのバナー広告を表示します。Mac版には広告はなく、広告SDKも入っていません。</p>
+<ul>
+  <li>リクエストするのは、パーソナライズされていない広告だけです。広告識別子（IDFA）は求めず、App Tracking Transparency（ATT）の許可もお願いしません。</li>
+  <li>App Storeの国・地域がアメリカの方には、広告リクエストにGoogleの「制限付きデータ処理（RDP）」も適用します。</li>
+  <li>広告を表示する過程で、Google Mobile Ads SDKが次の情報を自動的に取得することがあります：デバイスの識別子（アプリ単位・開発者単位の識別子など）、IPアドレスから推定したおおよその位置、広告の表示・タップの記録とアプリ内での操作、アプリの動作やクラッシュなどの診断情報。</li>
+  <li>これらの情報は、広告の配信、広告効果の測定、不正なクリックの防止のためにGoogle LLCが取り扱い、日本国外（アメリカなど）のGoogleのサーバーに送られることがあります。</li>
+  <li>書いた内容、予定、ToDo、付箋、カレンダーの内容が広告SDKに渡ることはありません。</li>
+  <li>オプトアウト：KanKanは広告識別子を求めません。「設定」＞「プライバシーとセキュリティ」＞「トラッキング」で「Appからのトラッキング要求を許可」をオフにすると、どのアプリも広告識別子を使えなくなります。広告の表示やそれに伴う情報の取得を望まない場合は、広告のないMac版をお使いいただくか、アプリを削除してください。</li>
+  <li>Googleによる情報の取り扱い：<a href="https://policies.google.com/technologies/partner-sites?hl=ja">https://policies.google.com/technologies/partner-sites</a></li>
+</ul>
+
+<h3>外部送信について（電気通信事業法に基づく公表事項）</h3>
+<p>iPhone・iPad版のKanKanは、広告を表示するために、次のとおり利用者の情報を外部に送信します。</p>
+<table>
+  <tr><th>項目</th><th>内容</th></tr>
+  <tr><td>送信先</td><td>Google LLC（Google Mobile Ads SDK）</td></tr>
+  <tr><td>送信される情報</td><td>デバイスの識別子、IPアドレス（おおよその位置）、広告の表示・タップと操作の記録、アプリの動作・クラッシュなどの診断情報</td></tr>
+  <tr><td>利用目的</td><td>広告の配信、広告効果の測定、不正なクリックの防止</td></tr>
+  <tr><td>送信先のプライバシーポリシー</td><td><a href="https://policies.google.com/privacy?hl=ja">https://policies.google.com/privacy</a></td></tr>
+</table>
+<p>オプトアウトの方法は上の「オプトアウト」をご覧ください。Mac版は外部送信を行いません（新しいバージョンの確認を除く）。</p>
+
+<h2>第三者への提供</h2>
+<p>KanKanが利用者のデータを第三者に提供したり販売したりすることはありません。
+ただし、上の「広告」に書いた情報は、広告を表示する過程でGoogleが直接取得し、取り扱います。分析ツールやクラッシュレポートのツールは使っていません。</p>
+
+<h2>日本以外の地域の方へ</h2>
+<p>アメリカ（CalOPPA、Do Not Trackを含む）、シンガポール（PDPA）、香港（PDPO）の方向けの記載は、<a href="../../en/privacy/">英語版のプライバシーポリシー</a>にあります。</p>
+
+<h2>データの削除</h2>
+<p>アプリを削除すると、そのデバイスのToDo・付箋・設定も削除されます。
+iCloudにあるKanKanのデータは、「設定」＞［ユーザ名］＞「iCloud」＞「ストレージを管理」から削除できます。
+カレンダーに登録した予定はカレンダーに残ります。「カレンダー」AppかKanKanで削除できます。</p>
+
+<h2>お子さまの個人情報</h2>
+<p>KanKanは13歳未満のお子さまを対象としていません。広告はパーソナライズされていないものだけをリクエストし、開発者がお子さまの個人情報を取得することはありません。</p>
+
+<h2>このポリシーの変更</h2>
+<p>機能の追加などでデータの取り扱いが変わるときは、このページを更新して上の施行日を改め、アプリのアップデート内容でもお知らせします。</p>
+
+<h2>お問い合わせ窓口</h2>
+<p>個人情報に関するお問い合わせ：<a href="mailto:taehyeonine@gmail.com">taehyeonine@gmail.com</a></p>
+
+<p class="footnote">App Storeのプライバシーラベル：Google Mobile Ads SDKが広告と分析のために取得する、識別子（デバイスID）、位置情報（おおよその場所）、使用状況データ（広告データ、製品の操作）、診断（クラッシュ、パフォーマンス、その他）。トラッキングに使われるデータはありません。 &nbsp;<a href="../">サポート</a></p>
+</body>
+</html>
